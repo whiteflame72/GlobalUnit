@@ -1,0 +1,17 @@
+A-Gs-MacBook-Pro:GlobalUnit ag$ grails create-mongodb-class VZFacebook
+| Script 'CreateMongodbClass' not found, did you mean:
+   1) CreateDomainClass
+   2) CreateApp_
+   3) CreateScript
+   4) CreateIntegrationTest
+   5) CreateFilters
+> Please make a selection or enter Q to quit: 1
+| Created file grails-app/domain/globalunit/VZFacebook.groovy
+| Created file test/unit/globalunit/VZFacebookTests.groovy
+A-Gs-MacBook-Pro:GlobalUnit ag$ grails generate-all VZFacebook
+| No domain class found for name VZFacebook. Please try again and enter a valid domain class name
+A-Gs-MacBook-Pro:GlobalUnit ag$ grails generate-all globalunit.VZFacebook
+| Generating views for domain class globalunit.VZFacebook
+> File /grails-app/views/VZFacebook/_form.gsp already exists. Overwrite?[y,n,a] a
+| Finished generation for domain class globalunit.VZFacebook
+A-Gs-MacBook-Pro:GlobalUnit ag$ 
